@@ -155,7 +155,7 @@ export default function Draw() {
         </View>
 
         {/* Replay Canvas */}
-        <View style={{flex: 1, backgroundColor: 'orange', borderRadius: 20}}>
+        <View style={{flex: 1, backgroundColor: '#E3FFDE', borderRadius: 20}}>
           <Text style={styles.previewText}>Preview</Text>
           <Canvas style={{ flex: 1}}>
             {paths.slice(0, replayIndex + 1).map((p, index) => (
